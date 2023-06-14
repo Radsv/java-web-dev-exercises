@@ -1,17 +1,17 @@
-package org.launchcode.java.Restaurant;
+package org.launchcode.java.RestaurantPractice;
 
 import java.util.ArrayList;
 
-public class Menu {
-    private ArrayList<MenuItem> food;
+public class MenuP {
+    private ArrayList<MenuItemP> food;
     private String lastUpdated;
 
-    public Menu(String lastUpdated){
-        this.food = new ArrayList<MenuItem>();
+    public MenuP(String lastUpdated){
+        this.food = new ArrayList<MenuItemP>();
         this.lastUpdated = lastUpdated;
     }
 
-    public ArrayList<MenuItem> getFood() {
+    public ArrayList<MenuItemP> getFood() {
         return food;
     }
 
@@ -22,7 +22,7 @@ public class Menu {
     public void setLastUpdated(String lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
-    public void addFood(MenuItem food1){
+    public void addFood(MenuItemP food1){
         this.food.add(food1);
     }
 }

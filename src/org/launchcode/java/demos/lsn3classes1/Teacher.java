@@ -1,5 +1,7 @@
 package org.launchcode.java.demos.lsn3classes1;
 
+import java.util.Objects;
+
 public class Teacher {
     private String firstName;
     private String lastName;
@@ -13,6 +15,8 @@ public class Teacher {
         this.subject = subject;
         this.yearsTeaching = yearsTeaching;
     }
+
+
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;

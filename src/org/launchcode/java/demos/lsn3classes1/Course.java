@@ -1,6 +1,7 @@
 package org.launchcode.java.demos.lsn3classes1;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Course {
 
@@ -14,6 +15,7 @@ public class Course {
         this.studentList = new ArrayList<Student>();
         this.questionBank = new ArrayList<String>();
     }
+
 
     public boolean equals(Object toBeCompared) {
         if (toBeCompared == this) {
@@ -31,6 +33,8 @@ public class Course {
         Course theCourse = (Course) toBeCompared;
         return theCourse.getCourseName() == getCourseName();
     }
+
+
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;

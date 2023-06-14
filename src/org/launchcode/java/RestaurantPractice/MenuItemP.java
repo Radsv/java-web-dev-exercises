@@ -1,6 +1,6 @@
-package org.launchcode.java.Restaurant;
+package org.launchcode.java.RestaurantPractice;
 
-public class MenuItem {
+public class MenuItemP {
     private String itemName;
     private Double itemPrice;
     private String itemDescription;
@@ -8,7 +8,7 @@ public class MenuItem {
     private boolean isNew;
 
 
-    public MenuItem(String itemName, Double itemPrice, String itemDescription, String itemCategory, boolean isNew){
+    public MenuItemP(String itemName, Double itemPrice, String itemDescription, String itemCategory, boolean isNew){
         this.itemName = itemName;
         this.itemPrice = itemPrice;
         this.itemDescription = itemDescription;

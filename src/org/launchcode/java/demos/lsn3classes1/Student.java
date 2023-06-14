@@ -52,7 +52,12 @@ public class Student {
     }
 
     public String toString() {
-        String studentReport = String.format("%s is a %s with %d credits and a GPA of %.2f", this.name, this.getGradeLevel(this.numberOfCredits), this.getNumberOfCredits(), this.getGpa());
+        String studentReport = String.format("%s is a %s with %d credits " +
+                        "and a GPA of %.2f",
+                this.name,
+                this.getGradeLevel(this.numberOfCredits),
+                this.getNumberOfCredits(),
+                this.getGpa());
         return studentReport;
     }
 
